@@ -1,7 +1,7 @@
 import PageHeader from "./components/PageHeader";
 import AboutMe from "./components/AboutMe";
 import MyProjects from "./components/MyProjects";
-// import PageFooter from "./components/PageFooter";
+import PageFooter from "./components/PageFooter";
 import "./i18n";
 import "./App.scss";
 
@@ -11,8 +11,7 @@ function App() {
       <PageHeader />
       <AboutMe />
       <MyProjects />
-      {/*
-      <PageFooter /> */}
+      <PageFooter />
     </>
   );
 }
