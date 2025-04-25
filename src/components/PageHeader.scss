@@ -1,0 +1,44 @@
+header {
+  padding: 25px 35px 10px;
+  max-width: 100%;
+  align-items: center;
+
+  .text-center {
+    font-size: 15px;
+    color: #999;
+
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      white-space: nowrap;
+      color: #000;
+      text-decoration: none;
+    }
+
+    span {
+      position: relative;
+
+      &:before {
+        content: "";
+        background-color: var(--verde);
+        position: absolute;
+        left: -30px;
+        top: 2px;
+        height: 16px;
+        width: 16px;
+        border-radius: 100%;
+      }
+    }
+  }
+  .i18nbutton {
+    color: #999;
+    font-weight: 700;
+    border: none;
+    &:hover {
+      color: var(--azul);
+    }
+    &.selected {
+      color: #000;
+    }
+  }
+}

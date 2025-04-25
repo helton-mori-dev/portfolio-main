@@ -1,0 +1,41 @@
+#footer {
+  text-align: center;
+
+  h2 {
+    width: 100%;
+    font-size: 50px;
+  }
+
+  .linha {
+    > div {
+      background: #ccc;
+      display: block;
+      height: 2px;
+    }
+  }
+}
+
+.rodape-contato {
+  padding-top: 125px;
+}
+
+.linha {
+  margin-top: 125px;
+}
+
+.creditos {
+  padding-top: 15px;
+  color: #999;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 767px) {
+  #footer {
+    h2 {
+      font-size: 2rem;
+    }
+    .linha {
+      margin-top: 1rem;
+    }
+  }
+}
