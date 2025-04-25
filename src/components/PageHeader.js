@@ -1,8 +1,7 @@
-// src/components/PageHeader.js
 import React from "react";
 import { useTranslation } from "react-i18next";
-// import MenuHeader from "./MenuHeader";
-// import LateralContact from "./LateralContact";
+import MenuHeader from "./MenuHeader";
+import LateralContact from "./LateralContact";
 import "./PageHeader.scss";
 
 function PageHeader() {
@@ -43,8 +42,8 @@ function PageHeader() {
           </a>
         </div>
       </header>
-      {/* <MenuHeader />
-      <LateralContact /> */}
+      <MenuHeader />
+      <LateralContact />
     </>
   );
 }
