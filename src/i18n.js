@@ -54,7 +54,7 @@ i18n.use(initReactI18next).init({
       },
     },
   },
-  lng: "pt",
+  lng: "en",
   fallbackLng: "en",
   interpolation: {
     escapeValue: false,
