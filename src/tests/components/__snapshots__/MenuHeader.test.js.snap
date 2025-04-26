@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MenuHeader components Deve bater com o snapshot 1`] = `
+<div>
+  <div
+    class="col-6 col-md-4 text-right"
+  >
+    <div
+      class="botao "
+      title="Menu"
+    >
+      Menu
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+  <div
+    class="nav-left "
+  >
+    <a
+      class="inicio"
+      href="https://helton-mori-dev.github.io/portfolio-vue3/"
+      title="Home"
+    >
+      Home
+    </a>
+    <a
+      class="sobre-menu"
+      href="#sobre"
+      title="About me"
+    >
+      About me
+    </a>
+    <a
+      class="trabalhos scroll"
+      href="#trabalhos"
+      title="Work"
+    >
+      Work
+    </a>
+    <a
+      class="contato-menu scroll"
+      href="#footer"
+      title="Contato"
+    >
+      Contato
+    </a>
+  </div>
+</div>
+`;

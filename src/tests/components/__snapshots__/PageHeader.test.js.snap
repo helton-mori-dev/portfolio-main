@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeader component Deve bater com o snapshot 1`] = `
+<div>
+  <header
+    class="row"
+  >
+    <div
+      class="col-6 col-md-4"
+    >
+      <button
+        class="i18nbutton btn selected"
+      >
+        En
+      </button>
+      <button
+        class="i18nbutton btn "
+      >
+        Pt
+      </button>
+    </div>
+    <div
+      class="col-4 d-none d-sm-none d-md-block text-center"
+    >
+      <a
+        class="title"
+        href="https://helton-mori-dev.github.io/portfolio-vue3/"
+      >
+        Helton Mori
+      </a>
+    </div>
+  </header>
+  <div
+    class="col-6 col-md-4 text-right"
+  >
+    <div
+      class="botao "
+      title="Menu"
+    >
+      Menu
+      <span />
+      <span />
+      <span />
+    </div>
+  </div>
+  <div
+    class="nav-left "
+  >
+    <a
+      class="inicio"
+      href="https://helton-mori-dev.github.io/portfolio-vue3/"
+      title="Home"
+    >
+      Home
+    </a>
+    <a
+      class="sobre-menu"
+      href="#sobre"
+      title="About me"
+    >
+      About me
+    </a>
+    <a
+      class="trabalhos scroll"
+      href="#trabalhos"
+      title="Work"
+    >
+      Work
+    </a>
+    <a
+      class="contato-menu scroll"
+      href="#footer"
+      title="Contato"
+    >
+      Contato
+    </a>
+  </div>
+  <div
+    class="contato "
+  >
+    <ul>
+      <li
+        class="linkedin"
+      >
+        Linkedin
+        <a
+          class="linkedin"
+          href="https://www.linkedin.com/in/engheltonmori/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="icon-linkedin"
+          />
+        </a>
+      </li>
+      <li
+        class="github"
+      >
+        Github
+        <a
+          href="https://github.com/helton-mori-dev"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="icon-github-circled"
+          />
+        </a>
+      </li>
+      <li
+        class="email"
+      >
+        Email
+        <a
+          href="mailto:heltonmori@gmail.com"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <i
+            class="icon-gmail"
+          />
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
