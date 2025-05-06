@@ -34,10 +34,7 @@ function PageHeader() {
           </button>
         </div>
         <div className="col-4 d-none d-sm-none d-md-block text-center">
-          <a
-            href="https://helton-mori-dev.github.io/portfolio-vue3/"
-            className="title"
-          >
+          <a href="/" className="title">
             Helton Mori
           </a>
         </div>

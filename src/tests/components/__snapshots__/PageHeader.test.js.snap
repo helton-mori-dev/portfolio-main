@@ -24,7 +24,7 @@ exports[`PageHeader component Deve bater com o snapshot 1`] = `
     >
       <a
         class="title"
-        href="https://helton-mori-dev.github.io/portfolio-vue3/"
+        href="/"
       >
         Helton Mori
       </a>
