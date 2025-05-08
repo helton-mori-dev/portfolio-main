@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import "./MyProjects.scss";
+import { Link } from "react-router-dom";
 
 import americanas from "../assets/img/americanas.png";
 import amil from "../assets/img/amil.png";
@@ -58,23 +59,18 @@ function MyProjects() {
 
         <div className="container row trabalho">
           <div className="col-12 col-md-6">
-            <h3>Viso Store</h3>
-            <p className="texto-fundo-preto">{t("workViso")}</p>
-            <a
-              href="https://www.visostore.com.br/"
-              className="link-trabalho"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {t("goTo")} Viso Store
-            </a>
+            <h3>E-commerce websites</h3>
+            <p className="texto-fundo-preto">{t("ecommerceProjects")}</p>
+            <Link to="/ecommerce" className="link-trabalho">
+              {t("goTo")} Ecommerce Projects
+            </Link>
           </div>
           <div className="col-12 col-md-6">
-            <img src={viso} alt="Viso Store" />
+            <img src={viso} alt="Ecommerce Projects" />
           </div>
         </div>
 
-        <div className="container row trabalho">
+        {/* <div className="container row trabalho">
           <div className="col-12 col-md-6">
             <h3>Front end Mentor E-commerce page</h3>
             <p className="texto-fundo-preto">{t("workMentor")}</p>
@@ -90,7 +86,7 @@ function MyProjects() {
           <div className="col-12 col-md-6">
             <img src={mentor} alt="Front end Mentor" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

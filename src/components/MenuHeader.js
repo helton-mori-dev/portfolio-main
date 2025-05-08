@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import "./MenuHeader.scss"; // se tiver estilo separado
+import "./MenuHeader.scss";
 
 function MenuHeader() {
   const { t } = useTranslation();
@@ -9,7 +9,7 @@ function MenuHeader() {
   const links = [
     {
       class: "inicio",
-      href: "https://helton-mori-dev.github.io/portfolio-vue3/",
+      href: "/",
       title: "linkHome",
     },
     {
