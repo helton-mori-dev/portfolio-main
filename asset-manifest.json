@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio-main/static/css/main.d4a19906.css",
+    "main.js": "/portfolio-main/static/js/main.8c6d12b1.js",
+    "static/js/453.0c11d810.chunk.js": "/portfolio-main/static/js/453.0c11d810.chunk.js",
+    "static/media/foto.png": "/portfolio-main/static/media/foto.0056570106b4855a7c7e.png",
+    "static/media/foto-viso.png": "/portfolio-main/static/media/foto-viso.b4ab1e02bbe0464e6ce2.png",
+    "static/media/foto-amaar.png": "/portfolio-main/static/media/foto-amaar.6f0171e5872bfb0d82aa.png",
+    "static/media/foto-mentor.png": "/portfolio-main/static/media/foto-mentor.1f509761ee9e49803a9f.png",
+    "static/media/fontello.eot?35346947": "/portfolio-main/static/media/fontello.29035d90f91b761c5a67.eot",
+    "static/media/fontello.ttf?35346947": "/portfolio-main/static/media/fontello.7d5ccd1e43c077b4f9cc.ttf",
+    "static/media/fontello.woff?35346947": "/portfolio-main/static/media/fontello.610613b57040534a9332.woff",
+    "static/media/fontello.woff2?35346947": "/portfolio-main/static/media/fontello.acdd13aedd88771bb786.woff2",
+    "static/media/fontello.svg?35346947": "/portfolio-main/static/media/fontello.85d06b7f7b15ebf3c509.svg",
+    "index.html": "/portfolio-main/index.html",
+    "static/media/arrow-right.svg": "/portfolio-main/static/media/arrow-right.e99fff1b582909393218.svg",
+    "static/media/seta.svg": "/portfolio-main/static/media/seta.7802a938829f66aa8c3e.svg",
+    "main.d4a19906.css.map": "/portfolio-main/static/css/main.d4a19906.css.map",
+    "main.8c6d12b1.js.map": "/portfolio-main/static/js/main.8c6d12b1.js.map",
+    "453.0c11d810.chunk.js.map": "/portfolio-main/static/js/453.0c11d810.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4a19906.css",
+    "static/js/main.8c6d12b1.js"
+  ]
+}
