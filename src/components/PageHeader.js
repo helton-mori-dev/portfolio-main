@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import MenuHeader from "./MenuHeader";
 import LateralContact from "./LateralContact";
@@ -34,9 +34,9 @@ function PageHeader() {
           </button>
         </div>
         <div className="col-4 d-none d-sm-none d-md-block text-center">
-          <a href="/" className="title">
+          <Link to="/" className="title">
             Helton Mori
-          </a>
+          </Link>
         </div>
       </header>
       <MenuHeader />

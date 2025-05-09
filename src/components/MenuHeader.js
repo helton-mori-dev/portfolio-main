@@ -9,7 +9,7 @@ function MenuHeader() {
   const links = [
     {
       class: "inicio",
-      href: "/",
+      href: process.env.PUBLIC_URL + "/",
       title: "linkHome",
     },
     {
