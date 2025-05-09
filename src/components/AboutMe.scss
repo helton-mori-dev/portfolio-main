@@ -9,10 +9,10 @@
 }
 
 .main {
-  h1 {
-    font-weight: bold;
+  h2 {
+    font-weight: 600;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     max-width: 70%;
 
     span {
@@ -35,6 +35,30 @@
   }
 }
 
+.botao-azul {
+  color: #fff;
+  background: var(--azul);
+  font-weight: 500;
+  border-radius: 40px;
+  margin: 30px auto 2rem;
+  text-align: center;
+  padding: 8px 22px;
+  font-size: 14px;
+  border: 2px solid var(--azul);
+  transition: 0.3s all ease;
+  display: table;
+
+  &.botao-input {
+    padding: 8px 22px;
+    margin-top: -10px;
+  }
+
+  &:hover {
+    color: var(--azul);
+    text-decoration: none;
+    background: #fff;
+  }
+}
 .foto {
   width: 100%;
   position: relative;

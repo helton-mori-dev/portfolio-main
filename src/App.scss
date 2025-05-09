@@ -68,31 +68,6 @@ body #root {
   }
 }
 
-.botao-azul {
-  color: #fff;
-  background: var(--azul);
-  font-weight: 300;
-  border-radius: 40px;
-  margin: 30px auto 2rem;
-  text-align: center;
-  padding: 8px 22px;
-  font-size: 14px;
-  border: 2px solid var(--azul);
-  transition: 0.3s all ease;
-  display: table;
-
-  &.botao-input {
-    padding: 8px 22px;
-    margin-top: -10px;
-  }
-
-  &:hover {
-    color: var(--azul);
-    text-decoration: none;
-    background: #fff;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .contato.contato-footer {
     display: flex;

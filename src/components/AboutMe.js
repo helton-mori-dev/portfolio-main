@@ -8,7 +8,7 @@ function AboutMe() {
   return (
     <>
       <section className="main container">
-        <h1 className="title">{t("aboutMe")}</h1>
+        <h2 className="title">{t("aboutMe")}</h2>
 
         <a className="botao-azul scroll" href="#sobre" title="Portfolio">
           {t("myWork")}
@@ -34,7 +34,10 @@ function AboutMe() {
               <img src={foto} alt="Minha foto" className="foto" />
             </div>
             <div className="col-md-7">
-              <p className="texto-fundo-preto paragrafo-direita mb-0 paragrafo-direita-mobile">
+              <p
+                className="texto-fundo-preto paragrafo-direita mb-0 paragrafo-direita-mobile"
+                style={{ whiteSpace: "pre-wrap" }}
+              >
                 {t("aboutMeExt")}
               </p>
             </div>

@@ -10,7 +10,7 @@ import natura from "../assets/img/natura.png";
 import prudential from "../assets/img/prudential.png";
 import amaar from "../assets/img/foto-amaar.png";
 import viso from "../assets/img/foto-viso.png";
-import mentor from "../assets/img/foto-mentor.png";
+// import mentor from "../assets/img/foto-mentor.png";
 
 const logos = [
   { name: "Americanas", src: americanas },
