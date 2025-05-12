@@ -6,10 +6,12 @@ import porcelanas from "../assets/img/porcelanas.png";
 import sdtronic from "../assets/img/sdtronic.jpg";
 import tritons from "../assets/img/tritons.jpg";
 import sapataria from "../assets/img/sapataria.png";
+import { useTranslation } from "react-i18next";
 
 const images = [fronza, pid, porcelanas, sdtronic, tritons, sapataria];
 
 function EcommerceProjects() {
+  const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState(null);
   const [isVisible, setIsVisible] = useState(false);
 
@@ -33,6 +35,9 @@ function EcommerceProjects() {
   return (
     <div className="container gallery">
       <h2 className="gallery__title">E-commerce projects</h2>
+      <p className="gallery__description pre-wrap">
+        {t("ecommerceDescription")}
+      </p>
       <div className="grid__gallery">
         {images.map((img, index) => (
           <img
