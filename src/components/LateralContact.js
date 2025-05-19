@@ -16,7 +16,7 @@ function LateralContact({ className = "" }) {
             <i className="icon-linkedin"></i>
           </a>
         </li>
-        <li className="github">
+        {/* <li className="github">
           Github
           <a
             target="_blank"
@@ -25,7 +25,7 @@ function LateralContact({ className = "" }) {
           >
             <i className="icon-github-circled"></i>
           </a>
-        </li>
+        </li> */}
         <li className="email">
           Email
           <a
@@ -34,6 +34,16 @@ function LateralContact({ className = "" }) {
             href="mailto:heltonmori@gmail.com"
           >
             <i className="icon-gmail"></i>
+          </a>
+        </li>
+        <li className="resume">
+          download
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://drive.google.com/uc?export=download&id=1N85cSs-E2o_YE6oPe8lKThAJHWkJlv_6"
+          >
+            <i className="icon-download"></i>
           </a>
         </li>
       </ul>

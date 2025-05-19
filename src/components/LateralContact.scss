@@ -37,7 +37,11 @@
           color: #f00;
         }
 
-        &.github:hover a {
+        &.github:content a {
+          color: #333;
+        }
+
+        &.resume:content a {
           color: #333;
         }
       }

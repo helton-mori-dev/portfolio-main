@@ -4,6 +4,7 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+import { Suspense, lazy } from "react";
 import PageHeader from "./components/PageHeader";
 import AboutMe from "./components/AboutMe";
 import MyProjects from "./components/MyProjects";
