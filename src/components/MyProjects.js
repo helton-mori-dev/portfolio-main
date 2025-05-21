@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import "./MyProjects.scss";
 import { Link } from "react-router-dom";
 
@@ -42,7 +42,9 @@ function MyProjects() {
           <h2 className="col-12 titulo">{t("recentWorksTitle")}</h2>
           <div className="col-12 col-md-6">
             <h3>{t("workOngName")}</h3>
-            <p className="texto-fundo-preto">{t("workOng")}</p>
+            <p className="texto-fundo-preto">
+              <Trans i18nKey="workOng" components={{ strong: <strong /> }} />
+            </p>
             <a
               href="https://helton-mori-dev.github.io/ong-amaar-vue/"
               className="link-trabalho"
@@ -60,7 +62,12 @@ function MyProjects() {
         <div className="container row trabalho">
           <div className="col-12 col-md-6">
             <h3>E-commerce websites</h3>
-            <p className="texto-fundo-preto">{t("ecommerceProjects")}</p>
+            <p className="texto-fundo-preto">
+              <Trans
+                i18nKey="ecommerceProjects"
+                components={{ strong: <strong /> }}
+              />
+            </p>
             <Link to="/ecommerce" className="link-trabalho">
               {t("goTo")} Ecommerce Projects
             </Link>

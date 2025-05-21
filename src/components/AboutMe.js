@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 import foto from "../assets/img/foto.png";
 import "./AboutMe.scss";
 
@@ -8,7 +8,9 @@ function AboutMe() {
   return (
     <>
       <section className="main container">
-        <h2 className="title">{t("aboutMe")}</h2>
+        <h2 className="title">
+          <Trans i18nKey="aboutMe" components={{ strong: <strong /> }} />
+        </h2>
 
         <a className="botao-azul scroll" href="#sobre" title="Portfolio">
           {t("myWork")}
