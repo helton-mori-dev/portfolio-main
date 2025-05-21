@@ -43,7 +43,7 @@ function LateralContact({ className = "" }) {
             rel="noreferrer"
             href="https://drive.google.com/uc?export=download&id=1N85cSs-E2o_YE6oPe8lKThAJHWkJlv_6"
           >
-            <i className="icon-download"></i>
+            <i className="icon-id-badge"></i>
           </a>
         </li>
       </ul>

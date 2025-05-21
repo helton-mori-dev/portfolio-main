@@ -29,21 +29,25 @@
           transition: 0.3s all ease;
         }
 
-        &.linkedin:hover a {
-          color: #0e76a8;
+        &.email i {
+          font-size: 22px;
         }
 
-        &.email:hover a {
-          color: #f00;
-        }
+        // &.linkedin:hover a {
+        //   color: #0e76a8;
+        // }
 
-        &.github:content a {
-          color: #333;
-        }
+        // &.email:hover a {
+        //   color: #f00;
+        // }
 
-        &.resume:content a {
-          color: #333;
-        }
+        // &.github:content a {
+        //   color: #333;
+        // }
+
+        // &.resume:content a {
+        //   color: #333;
+        // }
       }
     }
   }

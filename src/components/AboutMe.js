@@ -12,8 +12,12 @@ function AboutMe() {
           <Trans i18nKey="aboutMe" components={{ strong: <strong /> }} />
         </h2>
 
-        <a className="botao-azul scroll" href="#sobre" title="Portfolio">
-          {t("myWork")}
+        <a
+          className="botao-azul scroll"
+          href="https://drive.google.com/uc?export=download&id=1N85cSs-E2o_YE6oPe8lKThAJHWkJlv_6"
+          title="Portfolio"
+        >
+          {t("download")}
         </a>
         <a href="#sobre" className="scroll arrow-down">
           Arrow
