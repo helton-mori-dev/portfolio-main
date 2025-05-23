@@ -46,6 +46,15 @@ function MyProjects() {
               <Trans i18nKey="workOng" components={{ strong: <strong /> }} />
             </p>
             <a
+              className="link-trabalho"
+              href="https://michelle-kato.medium.com/building-a-website-for-ngo-8fdcb5a36c2f"
+              target="_blank"
+              rel="noreferrer"
+            >
+              UX / UI link
+            </a>
+            <br />
+            <a
               href="https://helton-mori-dev.github.io/ong-amaar-vue/"
               className="link-trabalho"
               target="_blank"
