@@ -22,6 +22,13 @@
 }
 
 #sobre {
+  margin-bottom: 75px;
+  .container-preto {
+    padding-bottom: 0;
+  }
+  .container-branco {
+    padding: 0;
+  }
   h1 {
     font-weight: bold;
     text-align: center;
@@ -71,7 +78,7 @@
 
 .texto-fundo-preto {
   color: #ccc;
-  font-weight: 300;
+  font-weight: 500;
   margin-bottom: 25px;
 }
 

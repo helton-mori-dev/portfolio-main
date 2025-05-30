@@ -23,7 +23,7 @@ function AppRoutes() {
       {!isEcommercePage && (
         <>
           <AboutMe />
-          {/* <BlogPosts /> */}
+          <BlogPosts />
           <MyProjects />
         </>
       )}

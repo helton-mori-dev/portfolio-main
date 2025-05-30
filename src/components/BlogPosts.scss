@@ -1,14 +1,10 @@
 .blogposts {
-  margin-top: 80px;
-
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-  }
-
-  .subtitle {
+  margin-bottom: 150px;
+  .subtitulo {
     color: #666;
     margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 1.25rem;
   }
 
   .blogposts__grid {
@@ -76,5 +72,10 @@
         }
       }
     }
+  }
+}
+@media screen and (max-width: 1200px) {
+  .blogposts {
+    margin-bottom: 400px;
   }
 }

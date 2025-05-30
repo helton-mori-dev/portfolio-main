@@ -2,11 +2,48 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { useTranslation, Trans } from "react-i18next";
 import "./BlogPosts.scss";
+import amaar from "../assets/img/foto-amaar.png";
 
 const blogPosts = [
   {
     id: 1,
-    image: "/img/post1.jpg",
+    image: amaar,
+    title: "Como comecei com front-end",
+    summary: "Uma reflexão sobre os erros e acertos do início da carreira.",
+    date: "21 de maio de 2025",
+    tags: ["#front-end", "#carreira", "#iniciante"],
+    link: "/blog/como-comecei",
+  },
+  {
+    id: 1,
+    image: amaar,
+    title: "Como comecei com front-end",
+    summary: "Uma reflexão sobre os erros e acertos do início da carreira.",
+    date: "21 de maio de 2025",
+    tags: ["#front-end", "#carreira", "#iniciante"],
+    link: "/blog/como-comecei",
+  },
+  {
+    id: 1,
+    image: amaar,
+    title: "Como comecei com front-end",
+    summary: "Uma reflexão sobre os erros e acertos do início da carreira.",
+    date: "21 de maio de 2025",
+    tags: ["#front-end", "#carreira", "#iniciante"],
+    link: "/blog/como-comecei",
+  },
+  {
+    id: 1,
+    image: amaar,
+    title: "Como comecei com front-end",
+    summary: "Uma reflexão sobre os erros e acertos do início da carreira.",
+    date: "21 de maio de 2025",
+    tags: ["#front-end", "#carreira", "#iniciante"],
+    link: "/blog/como-comecei",
+  },
+  {
+    id: 1,
+    image: amaar,
     title: "Como comecei com front-end",
     summary: "Uma reflexão sobre os erros e acertos do início da carreira.",
     date: "21 de maio de 2025",
@@ -19,8 +56,10 @@ function BlogPosts() {
   const { t } = useTranslation();
   return (
     <section className="blogposts main container">
-      <h2 className="title">Últimos Posts</h2>
-      <p>Algumas reflexões sobre carreira e desenvolvimento pessoal</p>
+      <h2 className="titulo">Latest Posts</h2>
+      <p className="subtitulo">
+        Some thoughts on career and software development
+      </p>
       <div className="blogposts__grid ">
         {blogPosts.map((post) => (
           <div className="blogposts__card" key={post.id}>

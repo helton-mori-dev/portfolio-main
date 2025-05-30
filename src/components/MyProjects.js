@@ -28,9 +28,9 @@ function MyProjects() {
         <div className="container row trabalho">
           <h2 className="col-12 titulo">{t("companiesWorked")}</h2>
           <div>
-            <ul className="companies">
+            <ul className="empresas">
               {logos.map((logo) => (
-                <li key={logo.name} className="company">
+                <li key={logo.name} className="empresa">
                   <img src={logo.src} alt={logo.name} />
                 </li>
               ))}

@@ -1,11 +1,12 @@
 #trabalhos {
   .container-preto {
-    padding-bottom: 170px;
+    padding-bottom: 100px;
   }
 }
 
 h2.titulo {
   text-align: center;
+  font-size: 2rem;
 }
 
 .link-trabalho {
@@ -30,9 +31,9 @@ h2.titulo {
   }
 }
 
-.companies {
+.empresas {
   display: flex;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
   list-style: none;
 }
 
@@ -68,7 +69,7 @@ h2.titulo {
 }
 
 .texto-fundo-branco {
-  font-weight: 300;
+  font-weight: 500;
   display: block;
   margin: 0 0 30px;
 }
@@ -89,7 +90,7 @@ h2.titulo {
 }
 
 @media screen and (max-width: 767px) {
-  .companies {
+  .empresas {
     margin-bottom: 2rem;
     flex-wrap: wrap;
     list-style: none;
