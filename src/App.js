@@ -12,6 +12,7 @@ import PageFooter from "./components/PageFooter";
 import EcommerceProjects from "./pages/EcommerceProjects";
 import "./i18n";
 import "./App.scss";
+import BlogPosts from "./components/BlogPosts";
 
 function AppRoutes() {
   const location = useLocation();
@@ -22,6 +23,7 @@ function AppRoutes() {
       {!isEcommercePage && (
         <>
           <AboutMe />
+          {/* <BlogPosts /> */}
           <MyProjects />
         </>
       )}
