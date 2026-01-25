@@ -24,6 +24,8 @@ i18n.use(initReactI18next).init({
         linkWork: "Work",
         linkBlog: "Blog",
         companiesWorked: "Companies I created projects for",
+        blogTitle: "Latest Posts",
+        blogSubititle: "Some thoughts on career and software development",
       },
     },
     pt: {
@@ -48,6 +50,9 @@ i18n.use(initReactI18next).init({
         linkWork: "Trabalhos",
         linkBlog: "Blog",
         companiesWorked: "Empresas para quem já prestei serviços",
+        blogSubititle:
+          "Minhas ideias sobre carreira e desenvolvimento de software",
+        blogTitle: "Últimos Posts",
       },
     },
   },
