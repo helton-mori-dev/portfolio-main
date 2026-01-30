@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 import "./BlogPosts.scss";
 
 const API_URL = process.env.REACT_APP_API_URL;
@@ -78,12 +78,12 @@ function BlogPosts() {
               />
             )}
             <div className="blogpost__content">
-              <h3>{post.title}</h3>
+              <h3 className="blogpost__title">{post.title}</h3>
               <div
                 className="blogpost__summary"
                 dangerouslySetInnerHTML={{ __html: post.excerpt }}
               />
-              <p className="blogpost__data">{formatDate(post.date)}</p>
+              <p className="blogpost__date">{formatDate(post.date)}</p>
 
               {post.tags.length > 0 && (
                 <div className="blogpost__tags">
